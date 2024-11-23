@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo_list</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+    <section class="Todo_list">
+        <section>
+            <h1>TODO-LIST</h1>
+        </section>
+    <section>
+        <label for="details">Task:</label>
+   <input type="text" placeholder="" name="details" id="details">
+   <section>
+   <label id="error-label" class="red-text"></label>
+   </section>
+   </section>
+   <section>
+    
+    <label for="dropdown">Priority:</label>
+    <select name="dropdown" id="dropdown">
+        <option value="urgent">Urgent</option>
+        <option value="moderate">Moderate</option>
+        <option value="normal">Normal</option>
+    </select>
+   </section>
+   <section class="button">
+    <button  onclick="submit()">Submit</button>
+   </section>
+   <section style="width: 100%;" width=100% class="operation-list">
+   <section class="taskList" width=50% style="width: 50%;">
+    <h1>TASK</h1>
+    <ul id="taskList"></ul>
+</section>
+<section class="taskList2" width=50% style="width: 50%;">
+    <h1>DONE</h1>
+    <ul id="taskList2"></ul>
+    
+</section>
+</section>
+   </section>
+   <script src="./main.js"></script>
+</body>
+
+</html>

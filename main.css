@@ -1,0 +1,55 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tan;
+}
+
+.Todo_list {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 800px;
+  border: 1px solid #9f9c9c;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+h1{
+  color: tan;
+  text-align: center;
+}
+section{
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.button{
+  padding-top: 15px;
+ text-align: center;
+}
+button{
+  width: 140px;
+  margin-bottom: 20px;
+}
+.red-text{
+  color: red;
+  font-size: 8px;
+}
+.operation-list{
+ display: flex; 
+
+}
+.taskList{
+  background-color: rgb(251, 47, 47);
+}
+.taskList2{
+  background-color: green;
+}
+.bi-pen{
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
